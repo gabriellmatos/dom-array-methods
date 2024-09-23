@@ -37,6 +37,7 @@ function doubleMoney() {
 
 // Sort user
 function sortUser() {
+	data.sort((a, b) => b.money - a.money);
 	updateDOM();
 }
 
